@@ -8,11 +8,13 @@ This enables the ability to click on css classnames within the style guide to se
 
 
 Click classnames in list form:
+
 ![Click on code tags](http://i7.minus.com/iSiFrm2Q5Uht2.png
  "Click on code tags in the docs")
 
 
 As well as in the examples:
+
 ![Click on class tags](http://i.minus.com/ibjVdUcRfdTvB8.png
  "Click on class tags in the examples")
 
