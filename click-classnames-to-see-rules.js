@@ -64,10 +64,10 @@
 
      function rulesArrayToHtml(content) {
              return content
-                 .join('<hr>')
-                 .replace(/(;)/g, '$1<br>\n')
-                 .replace(/(\{)/g, '$1<div style="padding-left: 5px">\n')
-                 .replace(/(\})/g, '</div>$1\n');
+	             .join('<hr>')
+	             .replace(/(\w[\w()-]+):([^;]+);/g,'<div><span style="color:#9DFD9A;">$1</span>:<span style="color:yellow">$2</span>;</div>')
+	             .replace(/(\{)/g, '$1<div style="padding-left: 1em">\n')
+	             .replace(/(\})/g, '</div>$1\n');
          }
          /**
           * Create the hovering element with content
