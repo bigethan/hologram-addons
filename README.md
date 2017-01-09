@@ -9,13 +9,12 @@ This enables the ability to click on css classnames within the style guide to se
 
 Click classnames in list form:
 
-![Click on code tags](http://i7.minus.com/iSiFrm2Q5Uht2.png
- "Click on code tags in the docs")
+<img src="http://circusfiles.s3.amazonaws.com/bigethan/hologram-addon-example-name.png" width="400">
 
 
-As well as in the examples:
+As well as in the code examples:
 
-![Click on class tags](http://i.minus.com/ibjVdUcRfdTvB8.png
- "Click on class tags in the examples")
+<img src="http://circusfiles.s3.amazonaws.com/bigethan/hologram-addon-example-code.png" width="400">
+
 
 
