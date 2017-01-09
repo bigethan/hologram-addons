@@ -2,6 +2,9 @@
     // Add this chunk of code to your hologram footer
     // to enable the ability to see the rules that
     // define a class when you click on it.
+    // NOTE: you may need to adjust the index of the css style sheet
+    // that `mainCssRules` targets to properly read
+    // your CSS file.
     (function(document) {
 
       //elements that hold classnames
@@ -26,7 +29,8 @@
         var cssRegex = /[^a-zA-Z0-9\s]{1,}/;
         var valid = false;
         var matchingRulesArray =[]; 
-        var mainCssRules = document.styleSheets[0].rules;
+        // you may have to change this index to target the right css file  
+        var mainCssRules = document.styleSheets[2].cssRules;
 
         //if it's CODE, make sure it looks like css class(es)
         //if it's an .s, make sure it's prevSibling .na says 'class='
